@@ -1,5 +1,5 @@
 from flask import Flask
-from app.main import register_routes
+from flask_docker_test.main import register_routes
 
 app = Flask(__name__)
 register_routes(app)

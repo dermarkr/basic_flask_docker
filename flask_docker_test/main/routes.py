@@ -1,6 +1,6 @@
 from flask import render_template
 from flask import current_app as app
-from app.main import main
+from flask_docker_test.main import main
 
 @main.route('/')
 def index():
